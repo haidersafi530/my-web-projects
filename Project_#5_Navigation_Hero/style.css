@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#circle{
+    position: absolute;
+    left: -100vh; 
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(0%, -50%);
+    width: 200vh;
+    background-color: red;
+    height: 200vh;
+}
+.stripe{
+    position: absolute;
+    left: 50%;
+    transform: translate(0%, -50%);
+    top: 50%;
+    width: 80%;
+    height: 60px;
+    background-color: yellow;
+}
